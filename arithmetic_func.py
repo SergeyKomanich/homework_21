@@ -6,9 +6,9 @@
 В остальных случаях вернуть строку "Неизвестная операция"
 """
 
-n_1 = int(input('Введите первое число : '))
-n_2 = int(input('Введите второе чиcло : '))
-op_r = input('Введите оператор (+, -, /, * ) : ')
+num_1 = int(input('Введите первое число : '))
+num_2 = int(input('Введите второе чиcло : '))
+operator = input('Введите оператор (+, -, /, * ) : ')
 
 
 def arithmetic(nu_1, nu_2, ope_r):
@@ -24,4 +24,4 @@ def arithmetic(nu_1, nu_2, ope_r):
         return "Неизвестная операция: "
 
 
-print("Результат вычисления = ", arithmetic(n_1, n_2, op_r))
+print("Результат вычисления = ", arithmetic(num_1, num_2, operator))
